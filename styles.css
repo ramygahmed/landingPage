@@ -1,0 +1,48 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+.header{
+    width: 100%;
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    padding-left: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    color: red;
+}
+.intro{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.rightIntro img{
+    width: auto;
+    height: 300px;
+}
+.leftIntro button{
+    background-color: rgb(48, 85, 163);
+    border: none;
+    border-radius: 9px;
+    width: 30%;
+    height: 10%;
+    color: white;
+}
