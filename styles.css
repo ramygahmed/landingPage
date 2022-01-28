@@ -46,3 +46,34 @@ body{
     height: 10%;
     color: white;
 }
+.galleryContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.galleryContainer h3{
+    margin-bottom: 50px;
+}
+.gallery{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+
+}
+.gallbox{
+    border-radius: 9px;
+    border-color: rgb(48, 85, 163);
+    border-width: 20px;
+    width: 100px;
+    height: 100px;
+}
+.gallcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallcontainer p{
+    text-align: center;
+    font-size: 12px;
+}
