@@ -13,12 +13,13 @@ body{
 
 }
 .logo{
-    padding-left: 10px;
+    padding-left: 60px;
 }
 .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 25%;
+    padding-right: 60px;
 }
 .nav a{
     text-decoration: none;
@@ -33,10 +34,15 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 60px;
+    
 }
 .rightIntro img{
     width: auto;
     height: 300px;
+}
+.leftIntro{
+    width: 300px;
+    padding-right: 30px !important;
 }
 .leftIntro button{
     background-color: rgb(48, 85, 163);
@@ -76,4 +82,58 @@ body{
 .gallcontainer p{
     text-align: center;
     font-size: 12px;
+    width: 75%;
+}
+.quote{
+    height: auto;
+    background-color: rgb(209, 209, 209);
+    text-align: justify;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25% 0 25%;
+}
+.quoteText{
+    margin-bottom: 10px !important;
+    
+}
+.quotee{
+    margin-top: 0px;
+    align-self: flex-end;
+}
+.call2Action{
+    display: flex;
+    justify-content: center;
+    padding: 90px 20px 90px 20px;
+    color: white;
+}
+.c2aContainer{
+    background-color: #3882F6;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.submit{
+    height: 40%;
+    width: 25%;
+    color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(0, 0, 255,0);
+    align-self: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
+.footer p{
+    margin: 0px !important;
+    text-align: center;
 }
